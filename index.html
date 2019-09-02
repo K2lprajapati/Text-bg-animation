@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            font-size: 130px;
+            font-family: Roboto;
+            text-transform: uppercase;
+            font-weight: bold;
+            animation: color-text 5s infinite;
+            background-image:url("shutterstock-149154938.png");
+            /*background: linear-gradient(to right, #ffe641 0%, #ffffff 15%, #ffe641 35%, #ffffff 50%, #ffe641 85%, #ffe641 90%, #ffffff 100%) repeat;*/
+        }
+        p.main_div{
+             /*background-clip: text;*/
+             -webkit-background-clip: text;
+             -webkit-text-fill-color: transparent;
+         }
+        @keyframes color-text {
+            0% {
+                background-position: 0 0;
+            }
+            10%{
+                background-position: 100px 0;
+            }
+            20%{
+                background-position: 200px 0;
+            }
+            30%{
+                background-position: 300px 0;
+            }
+            40%{
+                background-position: 400px 0;
+            }
+            50%{
+                background-position: 500px 0;
+            }
+            50%{
+                background-position: 650px 0;
+            }
+            60%{
+                background-position: 750px 0;
+            }
+            70%{
+                background-position: 850px 0;
+            }
+            80%{
+                background-position: 950px 0;
+            }
+            90%{
+                background-position: 1100px 0;
+            }
+            100% {
+                background-position: 1262px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p class="main_div">this is animation text</p>
+    </div>
+</body>
+</html>
